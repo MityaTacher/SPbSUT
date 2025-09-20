@@ -1,0 +1,15 @@
+0000000000000000000000000000000000000000 92daf493981e264977ffa21fdd6446ce99e88729 MityaTacher <mitya_kostrov_06@mail.ru> 1744640323 +0300	clone: from https://gitea.pivt.spbgut.ru/ikpi44n12/aegis_hero_3
+92daf493981e264977ffa21fdd6446ce99e88729 01e9b8c0326eae7b4eae2706af0a629cebfd33e7 MityaTacher <mitya_kostrov_06@mail.ru> 1744640503 +0300	commit: add file2
+01e9b8c0326eae7b4eae2706af0a629cebfd33e7 17be5df5294cf3c2714760667b9989ba6251882c MityaTacher <mitya_kostrov_06@mail.ru> 1744721362 +0300	pull: Fast-forward
+17be5df5294cf3c2714760667b9989ba6251882c 791cc472926fd445516510848a151a3d2d13569b MityaTacher <mitya_kostrov_06@mail.ru> 1744721566 +0300	commit: p.20
+791cc472926fd445516510848a151a3d2d13569b e00655d02fc161b601292b339b5c950493e82a7d MityaTacher <mitya_kostrov_06@mail.ru> 1744721752 +0300	pull --rebase (finish): refs/heads/main onto dc1a9f5434b087b62adb9231a88b16d096f73a8c
+e00655d02fc161b601292b339b5c950493e82a7d 3c8f1b91d6678b99a068c9ff392cf10db5b1390a MityaTacher <mitya_kostrov_06@mail.ru> 1744721978 +0300	commit: p.24
+3c8f1b91d6678b99a068c9ff392cf10db5b1390a fff9c9c31a4388a843460290410a432ec964d1c7 MityaTacher <mitya_kostrov_06@mail.ru> 1744722725 +0300	pull: Fast-forward
+fff9c9c31a4388a843460290410a432ec964d1c7 53b8e4a1b64a5ce6f039fff07cb68773685ef6a9 Dmitriy Kostrov <kostrov.de@sut.ru> 1745239858 +0300	pull: Fast-forward
+53b8e4a1b64a5ce6f039fff07cb68773685ef6a9 8a20b02b07833caa3f0b64d55cb61617282a1639 Dmitriy Kostrov <kostrov.de@sut.ru> 1745240851 +0300	commit: change main file2.txt
+8a20b02b07833caa3f0b64d55cb61617282a1639 437c6bd81f5991cc69e55a3dcec3e9c98e66bd60 Dmitriy Kostrov <kostrov.de@sut.ru> 1745241123 +0300	commit (merge): merge
+437c6bd81f5991cc69e55a3dcec3e9c98e66bd60 f791d326854dad93385b4d416d326f7349fffeb8 Dmitriy Kostrov <kostrov.de@sut.ru> 1745242622 +0300	commit: 15.1:
+f791d326854dad93385b4d416d326f7349fffeb8 a0a1694e3cce3338b2f40f8e8b02e4126da74b80 Dmitriy Kostrov <kostrov.de@sut.ru> 1745242652 +0300	commit: 15.2
+a0a1694e3cce3338b2f40f8e8b02e4126da74b80 0d253dea3976947ed79107357cd2f11f617e3308 Dmitriy Kostrov <kostrov.de@sut.ru> 1745243507 +0300	commit: main change
+0d253dea3976947ed79107357cd2f11f617e3308 de029bdda392d64be38f2135e5681f905b1a8a5b Dmitriy Kostrov <kostrov.de@sut.ru> 1745243593 +0300	merge refs/remotes/origin/main: Merge made by the 'ort' strategy.
+de029bdda392d64be38f2135e5681f905b1a8a5b 9e133c147ee66d7c1d54423a9332f6aaa9976bd5 Dmitriy Kostrov <kostrov.de@sut.ru> 1745243859 +0300	commit (merge): merge

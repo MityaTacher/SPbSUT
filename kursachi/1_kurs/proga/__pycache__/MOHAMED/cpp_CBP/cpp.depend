@@ -1,0 +1,230 @@
+# depslib dependency file v1.0
+1747068165 source:d:\spbgut\kursachi\1_kurs\proga\__pychache__\mriya\ikpi-44_osipovapa\cpp\cpp\io.cpp
+	"io.h"
+	<iostream>
+	<fstream>
+	<iomanip>
+
+1747067589 d:\spbgut\kursachi\1_kurs\proga\__pychache__\mriya\ikpi-44_osipovapa\cpp\cpp\io.h
+	<vector>
+	<string>
+
+1747067789 source:d:\spbgut\kursachi\1_kurs\proga\__pychache__\mriya\ikpi-44_osipovapa\cpp\cpp\main.cpp
+	"menu.h"
+
+1747067640 d:\spbgut\kursachi\1_kurs\proga\__pychache__\mriya\ikpi-44_osipovapa\cpp\cpp\menu.h
+
+1747067970 source:d:\spbgut\kursachi\1_kurs\proga\__pychache__\mriya\ikpi-44_osipovapa\cpp\cpp\menu.cpp
+	"menu.h"
+	"io.h"
+	"logic.h"
+	<iostream>
+	<cstdlib>
+	<iomanip>
+
+1747067607 d:\spbgut\kursachi\1_kurs\proga\__pychache__\mriya\ikpi-44_osipovapa\cpp\cpp\logic.h
+	<vector>
+
+1747067987 source:d:\spbgut\kursachi\1_kurs\proga\__pychache__\mriya\ikpi-44_osipovapa\cpp\cpp\logic.cpp
+	"logic.h"
+	<cmath>
+	<iostream>
+	<vector>
+	<iomanip>
+
+1747178279 source:d:\spbgut\kursachi\1_kurs\proga\__pychache__\mriya\ikvt-42_vvlasovamd\cpp\io.cpp
+	"io.h"
+	"error_struct.h"
+	<iostream>
+	<fstream>
+	<iomanip>
+	<filesystem>
+	<windows.h>
+
+1747177832 d:\spbgut\kursachi\1_kurs\proga\__pychache__\mriya\ikvt-42_vvlasovamd\cpp\io.h
+	<vector>
+	<string>
+	"error_struct.h"
+
+1747177912 source:d:\spbgut\kursachi\1_kurs\proga\__pychache__\mriya\ikvt-42_vvlasovamd\cpp\logic.cpp
+	"logic.h"
+	"error_struct.h"
+	<cmath>
+	<iostream>
+	<vector>
+	<iomanip>
+
+1747177899 d:\spbgut\kursachi\1_kurs\proga\__pychache__\mriya\ikvt-42_vvlasovamd\cpp\logic.h
+	<vector>
+	"error_struct.h"
+
+1747134057 source:d:\spbgut\kursachi\1_kurs\proga\__pychache__\mriya\ikvt-42_vvlasovamd\cpp\main.cpp
+	"menu.h"
+
+1747067640 d:\spbgut\kursachi\1_kurs\proga\__pychache__\mriya\ikvt-42_vvlasovamd\cpp\menu.h
+
+1747177687 source:d:\spbgut\kursachi\1_kurs\proga\__pychache__\mriya\ikvt-42_vvlasovamd\cpp\menu.cpp
+	"menu.h"
+	"io.h"
+	"logic.h"
+	<iostream>
+	<cstdlib>
+	<iomanip>
+
+1747177382 d:\spbgut\kursachi\1_kurs\proga\__pychache__\mriya\ikvt-42_vvlasovamd\cpp\error_struct.h
+
+1747177912 source:d:\spbgut\kursachi\1_kurs\proga\__pycache__\mriya\ikvt-42_vlasovamd\cpp\logic.cpp
+	"logic.h"
+	"error_struct.h"
+	<cmath>
+	<iostream>
+	<vector>
+	<iomanip>
+
+1747177899 d:\spbgut\kursachi\1_kurs\proga\__pycache__\mriya\ikvt-42_vlasovamd\cpp\logic.h
+	<vector>
+	"error_struct.h"
+
+1747177382 d:\spbgut\kursachi\1_kurs\proga\__pycache__\mriya\ikvt-42_vlasovamd\cpp\error_struct.h
+
+1747556443 source:d:\spbgut\kursachi\1_kurs\proga\__pycache__\mriya\ikvt-42_vlasovamd\cpp\menu.cpp
+	"menu.h"
+	"io.h"
+	"logic.h"
+	<iostream>
+	<cstdlib>
+	<iomanip>
+
+1747067640 d:\spbgut\kursachi\1_kurs\proga\__pycache__\mriya\ikvt-42_vlasovamd\cpp\menu.h
+
+1747177832 d:\spbgut\kursachi\1_kurs\proga\__pycache__\mriya\ikvt-42_vlasovamd\cpp\io.h
+	<vector>
+	<string>
+	"error_struct.h"
+
+1747556140 source:d:\spbgut\kursachi\1_kurs\proga\__pycache__\mriya\ikvt-42_vlasovamd\cpp\io.cpp
+	"io.h"
+	"error_struct.h"
+	<iostream>
+	<fstream>
+	<iomanip>
+	<filesystem>
+	<windows.h>
+
+1747556141 source:d:\spbgut\kursachi\1_kurs\proga\__pycache__\mriya\ikvt-42_vlasovamd\cpp\main.cpp
+	"menu.h"
+
+1747556140 source:d:\spbgut\kursachi\1_kurs\proga\__pycache__\mriya\cpp_cbp\io.cpp
+	"io.h"
+	"error_struct.h"
+	<iostream>
+	<fstream>
+	<iomanip>
+	<filesystem>
+	<windows.h>
+
+1747177832 d:\spbgut\kursachi\1_kurs\proga\__pycache__\mriya\cpp_cbp\io.h
+	<vector>
+	<string>
+	"error_struct.h"
+
+1747177382 d:\spbgut\kursachi\1_kurs\proga\__pycache__\mriya\cpp_cbp\error_struct.h
+
+1747177912 source:d:\spbgut\kursachi\1_kurs\proga\__pycache__\mriya\cpp_cbp\logic.cpp
+	"logic.h"
+	"error_struct.h"
+	<cmath>
+	<iostream>
+	<vector>
+	<iomanip>
+
+1747177899 d:\spbgut\kursachi\1_kurs\proga\__pycache__\mriya\cpp_cbp\logic.h
+	<vector>
+	"error_struct.h"
+
+1747556141 source:d:\spbgut\kursachi\1_kurs\proga\__pycache__\mriya\cpp_cbp\main.cpp
+	"menu.h"
+
+1747067640 d:\spbgut\kursachi\1_kurs\proga\__pycache__\mriya\cpp_cbp\menu.h
+
+1747640807 source:d:\spbgut\kursachi\1_kurs\proga\__pycache__\mriya\cpp_cbp\menu.cpp
+	"menu.h"
+	"io.h"
+	"logic.h"
+	<iostream>
+	<cstdlib>
+	<iomanip>
+
+1748889885 source:d:\spbgut\kursachi\1_kurs\proga\__pycache__\senda\cpp_cbp\io.cpp
+	"io.h"
+	"error_struct.h"
+	<iostream>
+	<fstream>
+	<iomanip>
+	<filesystem>
+	<windows.h>
+
+1747177832 d:\spbgut\kursachi\1_kurs\proga\__pycache__\senda\cpp_cbp\io.h
+	<vector>
+	<string>
+	"error_struct.h"
+
+1747177382 d:\spbgut\kursachi\1_kurs\proga\__pycache__\senda\cpp_cbp\error_struct.h
+
+1747556141 source:d:\spbgut\kursachi\1_kurs\proga\__pycache__\senda\cpp_cbp\main.cpp
+	"menu.h"
+
+1747067640 d:\spbgut\kursachi\1_kurs\proga\__pycache__\senda\cpp_cbp\menu.h
+
+1747640807 source:d:\spbgut\kursachi\1_kurs\proga\__pycache__\senda\cpp_cbp\menu.cpp
+	"menu.h"
+	"io.h"
+	"logic.h"
+	<iostream>
+	<cstdlib>
+	<iomanip>
+
+1747177899 d:\spbgut\kursachi\1_kurs\proga\__pycache__\senda\cpp_cbp\logic.h
+	<vector>
+	"error_struct.h"
+
+1748884610 source:d:\spbgut\kursachi\1_kurs\proga\__pycache__\senda\cpp_cbp\logic.cpp
+	"logic.h"
+	"error_struct.h"
+	<cmath>
+	<iostream>
+	<vector>
+	<iomanip>
+
+1747556141 source:d:\spbgut\kursachi\1_kurs\proga\__pycache__\mohamed\cpp_cbp\main.cpp
+	"menu.h"
+
+1747067640 d:\spbgut\kursachi\1_kurs\proga\__pycache__\mohamed\cpp_cbp\menu.h
+
+1747640807 source:d:\spbgut\kursachi\1_kurs\proga\__pycache__\mohamed\cpp_cbp\menu.cpp
+	"menu.h"
+	"io.h"
+	"logic.h"
+	<iostream>
+	<cstdlib>
+	<iomanip>
+
+1747177832 d:\spbgut\kursachi\1_kurs\proga\__pycache__\mohamed\cpp_cbp\io.h
+	<vector>
+	<string>
+	"error_struct.h"
+
+1747177382 d:\spbgut\kursachi\1_kurs\proga\__pycache__\mohamed\cpp_cbp\error_struct.h
+
+1747177899 d:\spbgut\kursachi\1_kurs\proga\__pycache__\mohamed\cpp_cbp\logic.h
+	<vector>
+	"error_struct.h"
+
+1748988647 source:d:\spbgut\kursachi\1_kurs\proga\__pycache__\mohamed\cpp_cbp\io.cpp
+	"io.h"
+	"error_struct.h"
+	<iostream>
+	<fstream>
+	<iomanip>
+	<windows.h>
+

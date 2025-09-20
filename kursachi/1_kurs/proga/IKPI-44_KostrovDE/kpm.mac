@@ -1,0 +1,41 @@
+/* [wxMaxima: input   start ] */
+fpprintprec:4$;
+
+tn: 5$; tk: 50$;
+t1: 15$; t2: 45$;
+a: 20$; b: 0.5$; c: 17$;
+a1: 5$; b1: 0.5$;
+
+N: 51$; dt: (tk - tn) / (N - 1)$;
+
+Uvx(t):= 
+if t < t1 
+then a * (t - tn)
+else if (t1 < t and t < t2)
+then a * (t1 - tn) -  b * (t - t1)
+else a * (t1 - tn) - b * (t2 - t1) - c * (t - t2)$;
+
+Uvix(t):= a1 * exp(b1 * Uvx(t))$;
+
+for t:tn thru tk step dt do display(Uvx(t), Uvix(t)), numer;
+
+data_t: read_list("massiv_t.txt");
+data_Uvx: read_list("massiv_Uvx.txt");
+data_Uvix: read_list("massiv_Uvix.txt");
+
+wxplot2d([discrete, data_t, data_Uvx], [gnuplot_preamble, "set grid;"]);
+wxplot2d([Uvx(t)], [t, tn, tk], [gnuplot_preamble, "set grid;"]);
+
+wxplot2d([discrete, data_t, data_Uvix], [y, 0, 1.35 * 10^44], [gnuplot_preamble, "set grid;"]);
+wxplot2d([Uvix(t)], [t, tn, tk], [y, 0, 1.35 * 10^44], [gnuplot_preamble, "set grid;"]);
+
+
+/* [wxMaxima: input   end   ] */
+
+
+/* [wxMaxima: input   start ] */
+
+/* [wxMaxima: input   end   ] */
+
+
+

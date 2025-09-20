@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Любимый город</title>
+    <link type="image/x-icon" href="img/logo.ico" rel="shortcut icon">
+    <link rel="stylesheet" href="style.css"> 
+    <script type="text/javascript" src="app.js" defer=""></script>
+
+</head>
+<body>
+
+  <header>
+
+    <div class="logo">
+        <img src="img/logo.jpg">
+    </div>
+
+    <h1 class="site-title">BMW XM </h1>
+  
+    <nav>
+        <ul>
+            <li><a href="#section1">О нас</a></li>
+            <li><a href="#section2">Автомобиль</a></li>
+            <li><a href="#section3">Заказать</a></li>
+        </ul>
+    </nav>
+
+  </header>
+    
+
+
+    <div class="slider-container">
+        <div class="slider">
+          <img src="img/1.jpg"  height="100px" onclick="openFullscreenImage(this)">
+          <img src="img/2.jpg"  height="100px" onclick="openFullscreenImage(this)">
+          <img src="img/33.jpg"  height="100px" onclick="openFullscreenImage(this)">
+          <img src="img/44.jpg"  height="100px" onclick="openFullscreenImage(this)">
+        </div>
+        <button class="prev-button" aria-label="Посмотреть предыдущий слайд">&lt;</button>
+        <button class="next-button" aria-label="Посмотреть следующий слайд">&gt</button>  
+    </div>
+
+    <section id="section1">
+
+      <div class="text_o_nas">
+        <h1>О нас:</h1>
+        <p>
+          Хасанская суета на м5 competition  - незабываемые эмоции и наша компания это прекрасно понимает. Именно поэтому мы предлагаем Вам новое решение: 
+        </p>
+        <p>
+          BMW XM - дикая суета, которая хасанит не хуже, а даже лучше, чем м5. Сочетание наличия комфортной и мягкой подвески с мощным двигателем обеспечивают незабываемое управление данной машиной!!! 
+        </p>
+        <p>
+          Всем дикой хасанке и на суете! 
+        </p>
+        
+      </div>
+
+
+    </section>
+
+
+    <section id="section2">
+      
+      <div class="column-container">
+
+        <div class="column">
+            <h2>Самая лучшая машина</h2>
+            <img src="img/5.jpg" class="pic" onclick="openFullscreenImage(this)">
+            </div>
+
+        <div class="column">
+            <h2>Суета похлеще, чем на м5!!!</h2>
+            <img src="img/8.jpg" class="pic" onclick="openFullscreenImage(this)">
+            </div>
+
+        
+
+      </div>
+
+    <div class="column-container">
+
+        <div class="column">
+            <h2>Комфортная машина</h2>
+            <img src="img/6.jpg" class="pic" onclick="openFullscreenImage(this)">
+            
+        </div>
+
+        <div class="column">
+            <h2>Самая лучшая машина</h2>
+            <img src="img/7.jpg" class="pic" onclick="openFullscreenImage(this)">
+                 </div>
+
+    </div>
+
+    <div id="fullscreen-container" class="hidden">
+      <span class="close-button" onclick="closeFullscreenImage()">&times;</span>
+      <img src="" alt="Полноэкранное изображение" id="fullscreen-image">
+    </div>
+
+    </section>
+
+    <section id="section3">
+
+    <form class="obratnuj-zvonok" autocomplete="off" /*action='email.php'*/ method='post'>
+        <div class="form-zvonok"> 
+          
+          <div>
+            <label>Имя <span>*</span></label>
+            <input type='text' name='name' required></div>
+          <div>
+            <label>Номер телефона (с кодом) <span>*</span></label>
+            <input type='text' name='phone' required></div>
+          <div>
+            <label>Сообщение</label>
+            <input type='text' name='message'>
+          </div>
+
+          
+          <input class="bot-send-mail" type='submit' value='Послать заявку'>
+        </div>
+    </form>
+    </section>
+    <button id="scrollToTopButton">Вверх</button>
+    <script>
+const slider = document.querySelector('.slider');
+const prevButton = document.querySelector('.prev-button');
+const nextButton = document.querySelector('.next-button');
+const slides = Array.from(slider.querySelectorAll('img'));
+const slideCount = slides.length;
+let slideIndex = 0;
+
+// Устанавливаем обработчики событий для кнопок
+prevButton.addEventListener('click', showPreviousSlide);
+nextButton.addEventListener('click', showNextSlide);
+
+// Функция для показа предыдущего слайда
+function showPreviousSlide() {
+  slideIndex = (slideIndex - 1 + slideCount) % slideCount;
+  updateSlider();
+}
+
+// Функция для показа следующего слайда
+function showNextSlide() {
+  slideIndex = (slideIndex + 1) % slideCount;
+  updateSlider();
+}
+
+// Функция для обновления отображения слайдера
+function updateSlider() {
+  slides.forEach((slide, index) => {
+    if (index === slideIndex) {
+      slide.style.display = 'block';
+    } else {
+      slide.style.display = 'none';
+    }
+  });
+}
+
+// Инициализация слайдера
+updateSlider();
+setInterval(showNextSlide,3000);
+    </script>
+</body>
+</html>

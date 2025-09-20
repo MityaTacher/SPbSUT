@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Разрыхлитель</title>
+    <link type="image/x-icon" href="img/logo.ico" rel="shortcut icon">
+    <link rel="stylesheet" href="style.css"> 
+    <script type="text/javascript" src="app.js" defer=""></script>
+
+</head>
+<body>
+  
+  <header>
+
+    <div class="logo">
+        <img src="img/logo.png">
+    </div>
+
+    <h1 class="site-title">Разрыхлитель</h1>
+
+    <nav>
+        <ul>
+            <li><a href="#section1">О компании</a></li>
+            <li><a href="#section2">Галерея</a></li>
+            <li><a href="#section3">Опт</a></li>
+        </ul>
+    </nav>
+
+  </header>
+    
+  
+
+  <div class="slider-container">
+
+    <div class="slider">
+        <div class="slides">
+            <div class="slide"><img src="img/1.jpg" alt="Картинка 1"></div>
+            <div class="slide"><img src="img/sec.jpg" alt="Картинка 2"></div>
+            <div class="slide"><img src="img/thi.jpg" alt="Картинка 3"></div>
+        </div>
+        <div class="buttonslide">
+            <button class="buttonsl" onclick="prevSlide()">&#10094;</button>
+            <button class="buttonsl" onclick="nextSlide()">&#10095;</button>
+        </div>
+    </div>
+
+</div>>
+
+
+    <section id="section1">
+
+      <div class="text_o_nas">
+        <h1>О компании:</h1>
+        <p>Когда в 1850 году основатель компании Эдуард Хаас начал продавать разрыхлитель в качестве заменителя дрожжей, он заложил фундамент стабильного бизнеса. Теперь это крупная компания, имеющая весомый коммерческий успех как в Австрии, на родине бренда, так и в других странах.
+          Разрабатывая новые продукты, опираясь на свое наследие, пожелания покупателей и инновации мы предлагаем потребителям приобщиться к традициям кулинарии, которые мы создаем.
+        </p>
+      </div>
+
+    </section>
+
+
+    <section id="section2">
+      <div class="text_o_nas">
+      <h1>Фотогалерея</h1>
+      </div>
+
+      <div class="column-container">
+
+        <div class="column">
+            <h2>Разрыхлитель теста с ароматом ванили</h2>
+            <img src="img/3.jpg" class="pic" onclick="openFullscreenImage(this)"> 
+          </div>
+
+        <div class="column">
+            <h2>Разрыхлитель теста на кухне</h2>
+            <img src="img/2.jpeg" class="pic" onclick="openFullscreenImage(this)">
+        </div>
+
+        
+
+      </div>
+
+    <div class="column-container">
+
+        <div class="column">
+            <h2>Разрыхлитель теста инсрукция</h2>
+            <img src="img/3.jpeg" class="pic" onclick="openFullscreenImage(this)">
+        </div>
+
+
+
+        <div class="column">
+            <h2>Рассыпавшийся разрыхлитель</h2>
+            <img src="img/5.jpg" class="pic" onclick="openFullscreenImage(this)">
+
+    </div>
+
+    <div id="fullscreen-container" class="hidden">
+      <span class="close-button" onclick="closeFullscreenImage()">&times;</span>
+      <img src="" alt="Полноэкранное изображение" id="fullscreen-image">
+    </div>
+
+    </section>
+
+    <section id="section3">
+
+    <form class="obratnuj-zvonok" autocomplete="off" action='scam.html' method='post'>
+        <div class="form-zvonok"> 
+          
+          <div>
+            <label>Имя <span>*</span></label>
+            <input type='text' name='name' required></div>
+          <div>
+            <label>Номер телефона (с кодом) <span>*</span></label>
+            <input type='text' name='phone' required></div>
+          <div>
+            <label>Сообщение</label>
+            <input type='text' name='message'>
+          </div>
+
+          <div>
+            <label>Введите текст с картинки<span>*</span></label>
+            <input type='text' name='capcha' required>
+          </div>
+          <img src="img/capcha.jpg" class="pic">
+          <input class="bot-send-mail" type='submit' value='Послать заявку'>
+        </div>
+    </form>
+
+    </section>
+
+    <button id="scrollToTopButton">К началу</button>
+
+
+
+</body>
+
+<footer style="width: 100%;">
+
+  <div class="social-icons">
+    <a href="https://web.telegram.org/" class="social-icon"><img src="img/tg.webp" alt="Tg"></a>
+    <a href="https://m.vk.com/" class="social-icon"><img src="img/vk.png" alt="Vk"></a>
+    <a href="https://www.instagram.com/" class="social-icon"><img src="img/ig.png" alt="Ig"></a>
+  </div>
+  
+</footer>
+
+<script>
+  let currentIndex = 0;
+  const slides = document.querySelector('.slides');
+  const totalSlides = document.querySelectorAll('.slide').length;
+
+  function showSlide(index) {
+      const slidesContainer = document.querySelector('.slides');
+      currentIndex = (index + totalSlides) % totalSlides;
+      slides.style.transform = 'translateX(' + (-currentIndex * 100) + '%)';
+  }
+
+  function nextSlide() {
+    currentIndex = (currentIndex + 1) % totalSlides;
+    showSlide(currentIndex);
+  }
+
+  function prevSlide() {
+    currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+    showSlide(currentIndex);
+  }
+  setInterval(nextSlide, 4000); // меняем слайд каждые 3 секунды
+</script>
+
+</html>

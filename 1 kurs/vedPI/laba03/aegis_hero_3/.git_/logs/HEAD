@@ -1,0 +1,42 @@
+0000000000000000000000000000000000000000 92daf493981e264977ffa21fdd6446ce99e88729 MityaTacher <mitya_kostrov_06@mail.ru> 1744640323 +0300	clone: from https://gitea.pivt.spbgut.ru/ikpi44n12/aegis_hero_3
+92daf493981e264977ffa21fdd6446ce99e88729 01e9b8c0326eae7b4eae2706af0a629cebfd33e7 MityaTacher <mitya_kostrov_06@mail.ru> 1744640503 +0300	commit: add file2
+01e9b8c0326eae7b4eae2706af0a629cebfd33e7 17be5df5294cf3c2714760667b9989ba6251882c MityaTacher <mitya_kostrov_06@mail.ru> 1744721362 +0300	pull: Fast-forward
+17be5df5294cf3c2714760667b9989ba6251882c 791cc472926fd445516510848a151a3d2d13569b MityaTacher <mitya_kostrov_06@mail.ru> 1744721566 +0300	commit: p.20
+791cc472926fd445516510848a151a3d2d13569b dc1a9f5434b087b62adb9231a88b16d096f73a8c MityaTacher <mitya_kostrov_06@mail.ru> 1744721752 +0300	pull --rebase (start): checkout dc1a9f5434b087b62adb9231a88b16d096f73a8c
+dc1a9f5434b087b62adb9231a88b16d096f73a8c e00655d02fc161b601292b339b5c950493e82a7d MityaTacher <mitya_kostrov_06@mail.ru> 1744721752 +0300	pull --rebase (pick): p.20
+e00655d02fc161b601292b339b5c950493e82a7d e00655d02fc161b601292b339b5c950493e82a7d MityaTacher <mitya_kostrov_06@mail.ru> 1744721752 +0300	pull --rebase (finish): returning to refs/heads/main
+e00655d02fc161b601292b339b5c950493e82a7d 3c8f1b91d6678b99a068c9ff392cf10db5b1390a MityaTacher <mitya_kostrov_06@mail.ru> 1744721978 +0300	commit: p.24
+3c8f1b91d6678b99a068c9ff392cf10db5b1390a fff9c9c31a4388a843460290410a432ec964d1c7 MityaTacher <mitya_kostrov_06@mail.ru> 1744722725 +0300	pull: Fast-forward
+fff9c9c31a4388a843460290410a432ec964d1c7 53b8e4a1b64a5ce6f039fff07cb68773685ef6a9 Dmitriy Kostrov <kostrov.de@sut.ru> 1745239858 +0300	pull: Fast-forward
+53b8e4a1b64a5ce6f039fff07cb68773685ef6a9 53b8e4a1b64a5ce6f039fff07cb68773685ef6a9 Dmitriy Kostrov <kostrov.de@sut.ru> 1745240175 +0300	checkout: moving from main to branch1
+53b8e4a1b64a5ce6f039fff07cb68773685ef6a9 53b8e4a1b64a5ce6f039fff07cb68773685ef6a9 Dmitriy Kostrov <kostrov.de@sut.ru> 1745240229 +0300	checkout: moving from branch1 to main
+53b8e4a1b64a5ce6f039fff07cb68773685ef6a9 53b8e4a1b64a5ce6f039fff07cb68773685ef6a9 Dmitriy Kostrov <kostrov.de@sut.ru> 1745240507 +0300	checkout: moving from main to branch1
+53b8e4a1b64a5ce6f039fff07cb68773685ef6a9 c634e92b7ce7a2f7e48960ad12b006c405786752 Dmitriy Kostrov <kostrov.de@sut.ru> 1745240688 +0300	commit: new branch file1.txt
+c634e92b7ce7a2f7e48960ad12b006c405786752 53b8e4a1b64a5ce6f039fff07cb68773685ef6a9 Dmitriy Kostrov <kostrov.de@sut.ru> 1745240702 +0300	checkout: moving from branch1 to main
+53b8e4a1b64a5ce6f039fff07cb68773685ef6a9 8a20b02b07833caa3f0b64d55cb61617282a1639 Dmitriy Kostrov <kostrov.de@sut.ru> 1745240851 +0300	commit: change main file2.txt
+8a20b02b07833caa3f0b64d55cb61617282a1639 c634e92b7ce7a2f7e48960ad12b006c405786752 Dmitriy Kostrov <kostrov.de@sut.ru> 1745240874 +0300	checkout: moving from main to branch1
+c634e92b7ce7a2f7e48960ad12b006c405786752 706331cf9dd33186eb278c2c666074e3e07bfda9 Dmitriy Kostrov <kostrov.de@sut.ru> 1745240913 +0300	commit: change branch1 file2.txt
+706331cf9dd33186eb278c2c666074e3e07bfda9 8a20b02b07833caa3f0b64d55cb61617282a1639 Dmitriy Kostrov <kostrov.de@sut.ru> 1745240925 +0300	checkout: moving from branch1 to main
+8a20b02b07833caa3f0b64d55cb61617282a1639 437c6bd81f5991cc69e55a3dcec3e9c98e66bd60 Dmitriy Kostrov <kostrov.de@sut.ru> 1745241123 +0300	commit (merge): merge
+437c6bd81f5991cc69e55a3dcec3e9c98e66bd60 c634e92b7ce7a2f7e48960ad12b006c405786752 Dmitriy Kostrov <kostrov.de@sut.ru> 1745241454 +0300	checkout: moving from main to c634e92
+c634e92b7ce7a2f7e48960ad12b006c405786752 437c6bd81f5991cc69e55a3dcec3e9c98e66bd60 Dmitriy Kostrov <kostrov.de@sut.ru> 1745241523 +0300	checkout: moving from c634e92b7ce7a2f7e48960ad12b006c405786752 to main
+437c6bd81f5991cc69e55a3dcec3e9c98e66bd60 706331cf9dd33186eb278c2c666074e3e07bfda9 Dmitriy Kostrov <kostrov.de@sut.ru> 1745241944 +0300	checkout: moving from main to branch1
+706331cf9dd33186eb278c2c666074e3e07bfda9 437c6bd81f5991cc69e55a3dcec3e9c98e66bd60 Dmitriy Kostrov <kostrov.de@sut.ru> 1745242080 +0300	checkout: moving from branch1 to tag1
+437c6bd81f5991cc69e55a3dcec3e9c98e66bd60 437c6bd81f5991cc69e55a3dcec3e9c98e66bd60 Dmitriy Kostrov <kostrov.de@sut.ru> 1745242111 +0300	checkout: moving from 437c6bd81f5991cc69e55a3dcec3e9c98e66bd60 to main
+437c6bd81f5991cc69e55a3dcec3e9c98e66bd60 706331cf9dd33186eb278c2c666074e3e07bfda9 Dmitriy Kostrov <kostrov.de@sut.ru> 1745242493 +0300	checkout: moving from main to branch1
+706331cf9dd33186eb278c2c666074e3e07bfda9 437c6bd81f5991cc69e55a3dcec3e9c98e66bd60 Dmitriy Kostrov <kostrov.de@sut.ru> 1745242570 +0300	checkout: moving from branch1 to main
+437c6bd81f5991cc69e55a3dcec3e9c98e66bd60 f791d326854dad93385b4d416d326f7349fffeb8 Dmitriy Kostrov <kostrov.de@sut.ru> 1745242622 +0300	commit: 15.1:
+f791d326854dad93385b4d416d326f7349fffeb8 a0a1694e3cce3338b2f40f8e8b02e4126da74b80 Dmitriy Kostrov <kostrov.de@sut.ru> 1745242652 +0300	commit: 15.2
+a0a1694e3cce3338b2f40f8e8b02e4126da74b80 706331cf9dd33186eb278c2c666074e3e07bfda9 Dmitriy Kostrov <kostrov.de@sut.ru> 1745242665 +0300	checkout: moving from main to branch1
+706331cf9dd33186eb278c2c666074e3e07bfda9 d18bd6c9bb733317304688ea6d45ec32c02c0338 Dmitriy Kostrov <kostrov.de@sut.ru> 1745242703 +0300	commit: 15.3
+d18bd6c9bb733317304688ea6d45ec32c02c0338 beb4ed7833971d79525ed6b6ccae83eec50d477b Dmitriy Kostrov <kostrov.de@sut.ru> 1745242731 +0300	commit: 15.4
+beb4ed7833971d79525ed6b6ccae83eec50d477b 437c6bd81f5991cc69e55a3dcec3e9c98e66bd60 Dmitriy Kostrov <kostrov.de@sut.ru> 1745242758 +0300	checkout: moving from branch1 to tag1
+437c6bd81f5991cc69e55a3dcec3e9c98e66bd60 a0a1694e3cce3338b2f40f8e8b02e4126da74b80 Dmitriy Kostrov <kostrov.de@sut.ru> 1745242779 +0300	checkout: moving from 437c6bd81f5991cc69e55a3dcec3e9c98e66bd60 to main
+a0a1694e3cce3338b2f40f8e8b02e4126da74b80 beb4ed7833971d79525ed6b6ccae83eec50d477b Dmitriy Kostrov <kostrov.de@sut.ru> 1745242911 +0300	checkout: moving from main to branch1
+beb4ed7833971d79525ed6b6ccae83eec50d477b de71318fab38591a8bb074f30f6f1563bf80ccfa Dmitriy Kostrov <kostrov.de@sut.ru> 1745243120 +0300	pull: Fast-forward
+de71318fab38591a8bb074f30f6f1563bf80ccfa de71318fab38591a8bb074f30f6f1563bf80ccfa Dmitriy Kostrov <kostrov.de@sut.ru> 1745243353 +0300	checkout: moving from branch1 to branch2
+de71318fab38591a8bb074f30f6f1563bf80ccfa e7d9940af88f8064cab0d59314282c38db2ac673 Dmitriy Kostrov <kostrov.de@sut.ru> 1745243422 +0300	commit: branch2 change
+e7d9940af88f8064cab0d59314282c38db2ac673 a0a1694e3cce3338b2f40f8e8b02e4126da74b80 Dmitriy Kostrov <kostrov.de@sut.ru> 1745243451 +0300	checkout: moving from branch2 to main
+a0a1694e3cce3338b2f40f8e8b02e4126da74b80 0d253dea3976947ed79107357cd2f11f617e3308 Dmitriy Kostrov <kostrov.de@sut.ru> 1745243507 +0300	commit: main change
+0d253dea3976947ed79107357cd2f11f617e3308 de029bdda392d64be38f2135e5681f905b1a8a5b Dmitriy Kostrov <kostrov.de@sut.ru> 1745243593 +0300	merge refs/remotes/origin/main: Merge made by the 'ort' strategy.
+de029bdda392d64be38f2135e5681f905b1a8a5b 9e133c147ee66d7c1d54423a9332f6aaa9976bd5 Dmitriy Kostrov <kostrov.de@sut.ru> 1745243859 +0300	commit (merge): merge

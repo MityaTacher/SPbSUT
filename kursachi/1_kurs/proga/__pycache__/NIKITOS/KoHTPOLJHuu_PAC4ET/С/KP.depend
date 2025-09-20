@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1744282345 source:d:\spbgut\kursachi\1_kurs\proga\lehva52\kp\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1744360505 source:d:\spbgut\kursachi\1_kurs\proga\__pycache__\nikitos\Ñ\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
